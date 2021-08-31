@@ -52,6 +52,9 @@ body {
 img {
   max-width: 100%; }
 
+  .logo-image{
+    width: 100px;
+  }
 
 a:focus,
 input:focus,
@@ -1775,9 +1778,11 @@ p {
   text-align: center;
 }
 
-.etapas p, ul li {
+.etapas p,.etapas ul li {
   color: #fff !important;
   line-height: 35px;
+  font-size: 13px !important;
+
 }
 .etapas button {
   border: none;
