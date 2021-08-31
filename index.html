@@ -633,12 +633,30 @@
                             <div class="video-image">
                                 <img src="assets/images/school-m.jpg" alt="video">
                             </div>
-                            <div class="video-icon">
-                                <a href="assets/video/demo.MP4" class="video-popup"><i class="lni-play"></i></a>
+                            <div class="video-icon ">
+                                <a data-toggle="modal" data-target="#video-modal"><i class="lni-play"></i></a>
                             </div>
                         </div> <!-- video wrapper -->
                     </div> <!-- video content -->
+                    <div class="modal fade" id="video-modal" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                        aria-labelledby="Modal1Label" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="bi bi-x"></i></span>
+                                </button>
+                                <div class="modal-body">
+                                    <video controls poster="assets/images/poster.png" class="embed-responsive embed-responsive-16by9">
+                                        <source src="assets/video/demo.MP4" class="embed-responsive-item">
+                                    </video>
+                                </div> <!-- end of modal-body -->
+                            </div> <!-- end of modal-content -->
+                        </div> <!-- end of modal-dialog -->
+                    </div> <!-- end of modal -->
+
+
                 </div>
+                
                 <div class="col-lg-6">
                     <div class="counter-wrapper mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="counter-content">
