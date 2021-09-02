@@ -83,6 +83,7 @@ video {
 @media screen and (max-width: 567px)  {
   .footer-area iframe{
     padding-left: 8%;
+    width: 270px !important;
     border-radius: 0px !important;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
@@ -1735,3 +1736,99 @@ p {
 }
 
 /* register */
+.flt-right {
+  float: right;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.fundo {
+  width: 500px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 100px auto;
+}
+
+@media only  screen and (max-width: 768px){
+  .fundo {
+    width: 75% !important;
+    margin-bottom: 19rem;
+  }
+  .etapas {
+    width: 100% !important;
+  }
+}
+.scene {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 600ms all ;
+  -webkit-transition: 600ms all ;
+  -moz-transition: 600ms all ;
+  -ms-transition: 600ms all ;
+  -o-transition: 600ms all ;
+}
+.etapas {
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 500px;
+  /* height: 400px; */
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background-color: #fe6e9a;
+  color: #fff !important;
+  backface-visibility: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+  
+.etapas legend{
+  text-align: center;
+}
+
+.etapas p,.etapas ul li {
+  color: #fff !important;
+  line-height: 35px;
+  font-size: 13px !important;
+
+}
+.etapas button {
+  border: none;
+  padding: 6px 15px;
+  color: #fff;
+  outline: none;
+  background: #00b99c;
+  position: absolute;
+  user-select: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.etapas button.next {
+  left: 10px;
+  bottom: 5px;
+}
+.etapas button.prev {
+  left: 10px;
+  top: 5px;
+}
+.etapas button:active {
+  background: #035548;
+}
+.etapas:nth-child(1) {
+  transform: rotateY(0deg) translateZ(200px);
+}
+.etapas:nth-child(2) {
+  transform: rotateY(90deg) translateZ(200px);
+}
+.etapas:nth-child(3) {
+  transform: rotateY(-180deg) translateZ(200px);
+}
+.etapas:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(200px);
+}
