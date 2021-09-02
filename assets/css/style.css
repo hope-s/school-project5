@@ -94,6 +94,7 @@ video {
   
 }
   iframe{
+    overflow-x: hidden !important;
     border-radius: 5px !important;
     -webkit-border-radius: 5px !important;
     -moz-border-radius: 5px !important;
