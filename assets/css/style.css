@@ -83,7 +83,7 @@ video {
 @media screen and (max-width: 567px)  {
   .footer-area iframe{
     padding-left: 8%;
-    width: 270px !important;
+    width: 240px !important;
     border-radius: 0px !important;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
