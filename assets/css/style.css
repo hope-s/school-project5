@@ -85,20 +85,28 @@ svg,
 video {
   vertical-align: middle; }
 
-@media screen and (max-width: 567px)  {
+@media screen and (max-width: 400px)  {
   .footer-area iframe{
     overflow-x: hidden !important;
     padding-left: 0%;
-    width: 200px !important;
-    border-radius: 0px !important;
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
-    -ms-border-radius: 0px !important;
-    -o-border-radius: 0px !important;
+    width: 250px !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
 }  
-  
+
 }
-  iframe{
+
+@media screen and (min-width: 401px) and (max-width: 767px){
+  .footer-area iframe{
+    overflow-x: hidden !important;
+    width: 350px !important;
+  }  
+}
+
+iframe{
     overflow-x: hidden !important;
     border-radius: 5px !important;
     -webkit-border-radius: 5px !important;
