@@ -89,7 +89,7 @@ video {
   .footer-area iframe{
     overflow-x: hidden !important;
     padding-left: 0%;
-    width: 250px !important;
+    width: 270px !important;
     border-radius: 5px !important;
     -webkit-border-radius: 5px !important;
     -moz-border-radius: 5px !important;
@@ -102,7 +102,7 @@ video {
 @media screen and (min-width: 401px) and (max-width: 767px){
   .footer-area iframe{
     overflow-x: hidden !important;
-    width: 350px !important;
+    width: 360px !important;
   }  
 }
 
@@ -1454,7 +1454,7 @@ p {
       .subscribe-form button {
         position: relative;
         width: 100%;
-        margin-top: 10px;
+        margin-bottom: 10px;
         border-radius: 5px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .subscribe-form button {
