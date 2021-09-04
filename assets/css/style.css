@@ -80,11 +80,11 @@ svg,
 video {
   vertical-align: middle; }
 
-/* @media screen and (max-width: 567px)  {
+@media screen and (max-width: 567px)  {
   .footer-area iframe{
     overflow-x: hidden !important;
-    padding-left: 8%;
-    width: 240px !important;
+    padding-left: 0%;
+    width: 200px !important;
     border-radius: 0px !important;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
@@ -100,7 +100,7 @@ video {
     -moz-border-radius: 5px !important;
     -ms-border-radius: 5px !important;
     -o-border-radius: 5px !important;
-} */
+}
 
 h1,
 h2,
